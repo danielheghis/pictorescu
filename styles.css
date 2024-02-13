@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('media/kelli-tungay-Sj0nhVIb4eY-unsplash.jpg');
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  section {
+    background-color: transparent;
+    border-radius: 7px;
+    width: 100%;
+  }
+  
+  canvas{
+    border: 6px groove #000000;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  span.part1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+span.part2 {
+    color: rgb(255, 153, 0);
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+span.part3 {
+    color: rgb(9, 54, 218);
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+  .tools-navbar {
+    width: 100%;
+    padding: 15px 22px 15px 22px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+  
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%; 
+  }
+  
+  .row .options {
+    list-style: none;
+    display: flex;
+  }
+  
+  .row .options .option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+ .option{
+  cursor: pointer;
+ }
+
+ .active{
+  color: #287aff;
+  font-weight: 600;
+ }
+
+
+  #thickness-slider {
+    width: 100%;
+    margin-top: 2px;
+  }
+  
+  
+  .buttons button {
+    width: 100%;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 11px 0;
+    font-size: 0.9rem;
+    background: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+
+  .buttons .save-img {
+    background: #4A98F7;
+    border: 1px solid #4A98F7;
+  }
+  
+  .canvas-area {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .canvas-area canvas {
+    width: 100%;
+    height: 550px;
+  }
+  
+  input#color-picker{
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  input#thickness-slider{
+    display: block;
+  }
+
+  .colors label{
+    margin-bottom: 0;
+  }
+
+  .buttons .clear-canvas {
+    background-color: #eeeeee;
+    color: #000000;
+    border: 1px solid #343434;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .clear-canvas:hover {
+    background: #6b6b6b;
+    color: white;
+  }
+  
+
+  .save-button {
+    position: relative;
+    display: inline-block;
+    background-color: #287aff;
+    border: 1px solid #0031c3;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    padding: 11px 0;
+    font-size: 0.9rem;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  .save-button:hover {
+    background-color: #0b4578;
+  }
+  
+  .save-button .save-options {
+    display: none;
+    position: absolute;
+    width: 70%;
+    top: 100%;
+    left: 60%;
+    background-color: #287aff;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .save-button .save-option {
+    padding: 8px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #287aff;
+    border-radius: 4px;
+  }
+
+  .save-button .save-option:hover {
+    background-color: #0b4578;
+  }
+  
+  .save-button:hover .save-options {
+    display: block;
+  }
+
+
+  #jpg{
+    border-bottom: 1px solid black;
+  }
+
+  .show-figures{
+    margin-top: 1.2rem;
+    padding: 5px;
+  }
+
+  .show-figures:hover{
+    background-color: #5A6168;
+    color: gainsboro;
+    transition: all 0.2s ease;
+  }
+  
+
+
+  

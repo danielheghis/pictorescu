@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictorescu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    
+    <body>
+        <div class="container">
+          <section class="header">
+            <h1>
+              <span class="part1">Pic</span><span class="part2">tor</span><span class="part3">escu</span>
+            </h1>
+
+          <section class="tools-navbar">
+            <div class="col">
+              <label>Instrumente</label>
+              <ul class="options">
+                <li class="option active" id="brush">
+                  <img src="media/brush.svg" alt="brush">
+                  <span>Pensula</span>
+                </li>
+                <li class="option" id="eraser">
+                  <img src="media/eraser.svg" alt="eraser">
+                  <span>Radiera</span>
+                </li>
+              
+              </ul>
+              
+            </div>
+
+            <div class="col">
+              <label>Forme</label>
+              <ul class="options">
+                <li class="option" id="ellipse">
+                    <img src="media/circle.svg" alt="circle" width="16.3" height="16.3">
+                    <span>Elipsa</span>
+                  </li>
+                <li class="option" id="rectangle">
+                  <img src="media/square.svg" alt="rectangle" width="16.3" height="16.3">
+                  <span>Dreptunghi</span>
+                </li>
+                <li class="option" id="line">
+                  <img src="media/dash-lg.svg" alt="line" width="16.3" height="16.3">
+                  <i class="bi bi-dash"></i>
+                  <span>Linie</span>
+                </li>
+              </ul>
+            </div>
+            
+            
+            <div class="col colors">
+              <label class="title">Culoare instrumente</label>
+              <input type="color" id="color-picker" value="#000000">
+
+              <label class="title">Culoare background</label>
+              <input type="color" id="background-color-picker" value="#ffffff">
+            </div>
+
+            <div class="col weight">
+              <label class="title">Grosime</label>
+              <input type="range" min="1" max="25" value="5" class="slider" id="thickness-slider">
+              <button class="show-figures">Lista figuri</button>
+            </div>
+
+            <div class="col buttons">
+              <button class="clear-canvas">Reseteaza canvas</button>
+              <div class="save-button">
+                Salveaza ca
+                <div class="save-options">
+                  <div class="save-option" id="jpg">JPG</div>
+                  <div class="save-option" id="svg">SVG</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="canvas-area">
+            <canvas>Acest browser nu suporta canvas</canvas>
+          </section>
+        </div>
+        
+      </body>
+    <script src="script.js"></script>
+</body>
+</html>
