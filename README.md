@@ -1,6 +1,6 @@
 # Pictorescu
 ## Description
-### 'Pictorescu' project is an interactive web application that provides an intuitive drawing experience, similar to the well-known functionality of Paint. With the help of an ### interactive canvas, users can express their creativity through drawing, adding shapes, and applying colors.
+### 'Pictorescu' project is an interactive web application that provides an intuitive drawing experience, similar to the well-known functionality of Paint. With the help of an interactive canvas, users can express their creativity through drawing, adding shapes, and applying colors.
 
 ## Key Features
 ### Interactive Canvas: Experience smooth and natural drawing on an interactive canvas.
